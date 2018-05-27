@@ -2,8 +2,6 @@
 # Exploratory Data Analysis course, Project 1
 # Andy Tinkham, May 27, 2018
 
-library(dplyr)
-
 # Retrieve the data if it doesn't already exist in the working directory
 if (!file.exists("./household_powerconsumption.zip")) {
         fileUrl <- "https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip"
