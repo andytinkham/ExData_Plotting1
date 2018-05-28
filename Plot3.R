@@ -30,7 +30,7 @@ working_data$DateTime <- strptime(paste(working_data$Date, working_data$Time),
                                   "%d/%m/%Y %H:%M:%S")
 
 # default width & height already match assignment instructions of 480 each
-png(file = "./plot3.png")
+png(file = "./Plot3.png")
 plot(working_data$DateTime, working_data$Sub_metering_1, type = "l",
      col = "black", xlab = "", ylab = "Energy sub metering")
 lines(working_data$DateTime, working_data$Sub_metering_2, col = "red")

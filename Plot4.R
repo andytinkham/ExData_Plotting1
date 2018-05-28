@@ -30,7 +30,7 @@ working_data$DateTime <- strptime(paste(working_data$Date, working_data$Time),
                                   "%d/%m/%Y %H:%M:%S")
 
 # default width & height already match assignment instructions of 480 each
-png(file = "./plot4.png")
+png(file = "./Plot4.png")
 par(mfrow = c(2,2))
 
 # First graph - same as Plot 2 with different y-axis label
