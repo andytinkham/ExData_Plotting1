@@ -29,7 +29,8 @@ rm(fulldata)
 working_data$DateTime <- strptime(paste(working_data$Date, working_data$Time),
                                   "%d/%m/%Y %H:%M:%S")
 
-png(file = "./Plot2.png")
+# default width & height already match assignment instructions of 480 each
+png(file = "./plot2.png")
 
 plot(working_data$DateTime, working_data$Global_active_power, type = "l",
      ylab = "Global Active Power (kilowatts)", xlab = "")
